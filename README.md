@@ -27,6 +27,24 @@ The matrix ![equiation](http://latex.codecogs.com/gif.latex?A%5Cin%20R%5E%7Bnxn%
 
 Aim of Luenberger observer is to correct the states estimation equation with a feedback from the estimation error  y(k) -  based on measurements in and out signals of dynamical process in order to give estimates of internal states of system.
 
+druga strona:
+1:
+<a href="http://www.codecogs.com/eqnedit.php?latex=\hat{x}(k&plus;1)=A\hat{x}(k)&plus;Bu(k)&plus;\underbrace{L(y(k)-C\hat{x}(k))}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\hat{x}(k&plus;1)=A\hat{x}(k)&plus;Bu(k)&plus;\underbrace{L(y(k)-C\hat{x}(k))}" title="\hat{x}(k+1)=A\hat{x}(k)+Bu(k)+\underbrace{L(y(k)-C\hat{x}(k))}" /></a>
+2:
+<a href="http://www.codecogs.com/eqnedit.php?latex=\tilde{x}(k)=x(k)-\hat{x}(k)" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\tilde{x}(k)=x(k)-\hat{x}(k)" title="\tilde{x}(k)=x(k)-\hat{x}(k)" /></a>
+3:
+<a href="http://www.codecogs.com/eqnedit.php?latex=\tilde{x}(k&plus;1)=Ax(k)&plus;Bu(k)-A\hat{x}(k)-Bu(k)-L\left&space;[&space;y(k)-C\hat{x}(k)&space;\right&space;]" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\tilde{x}(k&plus;1)=Ax(k)&plus;Bu(k)-A\hat{x}(k)-Bu(k)-L\left&space;[&space;y(k)-C\hat{x}(k)&space;\right&space;]" title="\tilde{x}(k+1)=Ax(k)+Bu(k)-A\hat{x}(k)-Bu(k)-L\left [ y(k)-C\hat{x}(k) \right ]" /></a>
+<a href="http://www.codecogs.com/eqnedit.php?latex==(A-LC)\tilde{x}(k)" target="_blank"><img src="http://latex.codecogs.com/gif.latex?=(A-LC)\tilde{x}(k)" title="=(A-LC)\tilde{x}(k)" /></a>
+4:
+<a href="http://www.codecogs.com/eqnedit.php?latex=\tilde{x}(k)=(A-LC)^{k}(x(0)-\hat{x}(0))" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\tilde{x}(k)=(A-LC)^{k}(x(0)-\hat{x}(0))" title="\tilde{x}(k)=(A-LC)^{k}(x(0)-\hat{x}(0))" /></a>
+5:
+<a href="http://www.codecogs.com/eqnedit.php?latex=\dot{x}(t)=Ax(t)&plus;Bu(t)" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\dot{x}(t)=Ax(t)&plus;Bu(t)" title="\dot{x}(t)=Ax(t)+Bu(t)" /></a>
+6:
+<a href="http://www.codecogs.com/eqnedit.php?latex=\frac{\mathrm{d}\hat{x}(t)}{\mathrm{d}t}=A\hat{x}(t)&plus;Bu(t)&plus;L\left&space;[&space;y(t)-C\hat{x}(t)&space;\right&space;]" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\frac{\mathrm{d}\hat{x}(t)}{\mathrm{d}t}=A\hat{x}(t)&plus;Bu(t)&plus;L\left&space;[&space;y(t)-C\hat{x}(t)&space;\right&space;]" title="\frac{\mathrm{d}\hat{x}(t)}{\mathrm{d}t}=A\hat{x}(t)+Bu(t)+L\left [ y(t)-C\hat{x}(t) \right ]" /></a>
+7:
+<a href="http://www.codecogs.com/eqnedit.php?latex=\frac{\mathrm{d}\tilde{x}(t)}{\mathrm{d}t}=(A-LC)\tilde{x}(t)" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\frac{\mathrm{d}\tilde{x}(t)}{\mathrm{d}t}=(A-LC)\tilde{x}(t)" title="\frac{\mathrm{d}\tilde{x}(t)}{\mathrm{d}t}=(A-LC)\tilde{x}(t)" /></a>
+
+
 ![equiation]()
 ![equiation]()
 ![equiation]()
