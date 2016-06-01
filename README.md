@@ -10,8 +10,8 @@ Luenberger observer is  a design for nonlinear single-input single-output system
 
 where:
 
-x(t) ϵ Rᴺ in the system state
-u(t) ϵ R is the input variable
-y(t) ϵ R is the output variable
-function Ø(x(t), u(t)) : Rᴺ+1 → R is locally Lipschitz and describes the system nonlinearities.
+![equiation](http://latex.codecogs.com/gif.latex?x%28t%29%5Cin%20R%5E%7BN%7D) in the system state
+![equiation]() u(t) ϵ R is the input variable
+![equiation]() y(t) ϵ R is the output variable
+![equiation]() function Ø(x(t), u(t)) : Rᴺ+1 → R is locally Lipschitz and describes the system nonlinearities.
 The matrix A ϵ Rnxn, B ϵ Rnx1 and C ϵ R1xn are defined as
