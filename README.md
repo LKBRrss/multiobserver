@@ -19,9 +19,11 @@ where:
 function ![equiation](http://latex.codecogs.com/gif.latex?%5Cphi%20%28x%28t%29%2Cu%28t%29%29)  : ![equiation](http://latex.codecogs.com/gif.latex?R%5E%7BN&plus;1%7D%5Crightarrow%20R) is locally Lipschitz and describes the system nonlinearities.
 The matrix ![equiation](http://latex.codecogs.com/gif.latex?A%5Cin%20R%5E%7Bnxn%7D), ![equiation](http://latex.codecogs.com/gif.latex?B%5Cin%20R%5E%7Bnx1%7D) and ![equiation](http://latex.codecogs.com/gif.latex?C%5Cin%20R%5E%7B1xn%7D) are defined as:
 
-
 ![equiation](http://latex.codecogs.com/gif.latex?A%3D%5Cbegin%7Bbmatrix%7D%200%20%26%201%20%26%20%5Ccdots%20%26%20%5Ccdots%20%26%200%20%5C%5C%200%20%26%200%20%26%201%20%26%20%5Ccdots%20%26%200%5C%5C%20%5Cvdots%20%26%20%26%20%5Cddots%20%26%20%26%20%5Cvdots%20%5C%5C%200%20%26%20%5Ccdots%20%26%20%5Ccdots%20%26%200%20%26%201%20%5C%5C%200%20%26%20%5Ccdots%20%26%20%5Ccdots%20%26%20%5Ccdots%20%26%200%20%5Cend%7Bbmatrix%7D)
 
+<a href="http://www.codecogs.com/eqnedit.php?latex=B=\begin{bmatrix}&space;0\\&space;0\\&space;\vdots&space;\\&space;0\\&space;1&space;\end{bmatrix}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?B=\begin{bmatrix}&space;0\\&space;0\\&space;\vdots&space;\\&space;0\\&space;1&space;\end{bmatrix}" title="B=\begin{bmatrix} 0\\ 0\\ \vdots \\ 0\\ 1 \end{bmatrix}" /></a>
+
+<a href="http://www.codecogs.com/eqnedit.php?latex=C=\begin{bmatrix}&space;1&space;&&space;0&space;&&space;0&space;&&space;0&space;&&space;0&space;\end{bmatrix}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?C=\begin{bmatrix}&space;1&space;&&space;0&space;&&space;0&space;&&space;0&space;&&space;0&space;\end{bmatrix}" title="C=\begin{bmatrix} 1 & 0 & 0 & 0 & 0 \end{bmatrix}" /></a>
 
 ![equiation]()
 ![equiation]()
