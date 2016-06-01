@@ -7,9 +7,9 @@ Luenberger observer is  a design for nonlinear single-input single-output system
 
 ![equiation](http://latex.codecogs.com/gif.latex?y%28t%29%3DCx%28t%29)
 
-<a href="http://www.codecogs.com/eqnedit.php?latex=\frac{\mathrm{d}&space;x(t)}{\mathrm{d}&space;t}=&space;Ax(t)&plus;B\phi&space;(x(t),u(t))" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\frac{\mathrm{d}&space;x(t)}{\mathrm{d}&space;t}=&space;Ax(t)&plus;B\phi&space;(x(t),u(t))" title="\frac{\mathrm{d} x(t)}{\mathrm{d} t}= Ax(t)+B\phi (x(t),u(t))" /></a>
 
 where:
+
 x(t) ϵ Rᴺ in the system state
 u(t) ϵ R is the input variable
 y(t) ϵ R is the output variable
