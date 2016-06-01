@@ -7,4 +7,4 @@ Luenberger observer is  a design for nonlinear single-input single-output system
 
 <pre xml:lang="latex">\frac{\mathrm{d} x(t)}{\mathrm{d} t}= Ax(t)+B\phi (x(t),u(t))</pre>
 
-[latex]\frac{\mathrm{d} x(t)}{\mathrm{d} t}= Ax(t)+B\phi (x(t),u(t))[/latex]
+![equation](http://latex.codecogs.com/gif.latex?\frac{\mathrm{d}&space;x(t)}{\mathrm{d}&space;t}=&space;Ax(t)&plus;B\phi&space;(x(t),u(t)))
