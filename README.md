@@ -21,12 +21,10 @@ The matrix ![equiation](http://latex.codecogs.com/gif.latex?A%5Cin%20R%5E%7Bnxn%
 
 ![equiation](http://latex.codecogs.com/gif.latex?A%3D%5Cbegin%7Bbmatrix%7D%200%20%26%201%20%26%20%5Ccdots%20%26%20%5Ccdots%20%26%200%20%5C%5C%200%20%26%200%20%26%201%20%26%20%5Ccdots%20%26%200%5C%5C%20%5Cvdots%20%26%20%26%20%5Cddots%20%26%20%26%20%5Cvdots%20%5C%5C%200%20%26%20%5Ccdots%20%26%20%5Ccdots%20%26%200%20%26%201%20%5C%5C%200%20%26%20%5Ccdots%20%26%20%5Ccdots%20%26%20%5Ccdots%20%26%200%20%5Cend%7Bbmatrix%7D)
 
-<a href="http://www.codecogs.com/eqnedit.php?latex=B=\begin{bmatrix}&space;0\\&space;0\\&space;\vdots&space;\\&space;0\\&space;1&space;\end{bmatrix}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?B=\begin{bmatrix}&space;0\\&space;0\\&space;\vdots&space;\\&space;0\\&space;1&space;\end{bmatrix}" title="B=\begin{bmatrix} 0\\ 0\\ \vdots \\ 0\\ 1 \end{bmatrix}" /></a>
+![equiation](http://latex.codecogs.com/gif.latex?B%3D%5Cbegin%7Bbmatrix%7D%200%5C%5C%200%5C%5C%20%5Cvdots%20%5C%5C%200%5C%5C%201%20%5Cend%7Bbmatrix%7D)
 
-<a href="http://www.codecogs.com/eqnedit.php?latex=C=\begin{bmatrix}&space;1&space;&&space;0&space;&&space;0&space;&&space;0&space;&&space;0&space;\end{bmatrix}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?C=\begin{bmatrix}&space;1&space;&&space;0&space;&&space;0&space;&&space;0&space;&&space;0&space;\end{bmatrix}" title="C=\begin{bmatrix} 1 & 0 & 0 & 0 & 0 \end{bmatrix}" /></a>
+![equiation](http://latex.codecogs.com/gif.latex?C%3D%5Cbegin%7Bbmatrix%7D%201%20%26%200%20%26%200%20%26%200%20%26%200%20%5Cend%7Bbmatrix%7D)
 
-![equiation]()
-![equiation]()
 ![equiation]()
 ![equiation]()
 ![equiation]()
