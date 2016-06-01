@@ -16,5 +16,5 @@ where:
 
 ![equiation](http://latex.codecogs.com/gif.latex?y%28t%29%5Cin%20R) is the output variable
 
-![equiation]() function Ø(x(t), u(t)) : Rᴺ+1 → R is locally Lipschitz and describes the system nonlinearities.
+function ![equiation]() Ø(x(t), u(t)) : Rᴺ+1 → R is locally Lipschitz and describes the system nonlinearities.
 The matrix A ϵ Rnxn, B ϵ Rnx1 and C ϵ R1xn are defined as
