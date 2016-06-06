@@ -36,9 +36,16 @@ where:
 
 The dynamics of the state estimation error ![equiation](http://latex.codecogs.com/gif.latex?%5Ctilde%7Bx%7D%28k%29%3Dx%28k%29-%5Chat%7Bx%7D%28k%29) is:
 
-<a href="http://www.codecogs.com/eqnedit.php?latex=\tilde{x}(k&plus;1)=Ax(k)&plus;Bu(k)-A\hat{x}(k)-Bu(k)-L\left&space;[&space;y(k)-C\hat{x}(k)&space;\right&space;]" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\tilde{x}(k&plus;1)=Ax(k)&plus;Bu(k)-A\hat{x}(k)-Bu(k)-L\left&space;[&space;y(k)-C\hat{x}(k)&space;\right&space;]" title="\tilde{x}(k+1)=Ax(k)+Bu(k)-A\hat{x}(k)-Bu(k)-L\left [ y(k)-C\hat{x}(k) \right ]" /></a>
+![equiation](http://latex.codecogs.com/gif.latex?%5Ctilde%7Bx%7D%28k&plus;1%29%3DAx%28k%29&plus;Bu%28k%29-A%5Chat%7Bx%7D%28k%29-Bu%28k%29-L%5Cleft%20%5B%20y%28k%29-C%5Chat%7Bx%7D%28k%29%20%5Cright%20%5D)
 
-![equiation](http://latex.codecogs.com/gif.latex?%5Ctilde%7Bx%7D%28k&plus;1%29%3DAx%28k%29&plus;Bu%28k%29-A%5Chat%7Bx%7D%28k%29-Bu%28k%29-L%5Cleft%20%5B%20y%28k%29-C%5Chat%7Bx%7D%28k%29%20%5Cright%20%5D%3D%28A-LC%29%5Ctilde%7Bx%7D%28k%29)
+![equiation](http://latex.codecogs.com/gif.latex?%3D%28A-LC%29%5Ctilde%7Bx%7D%28k%29)
 
+
+![equiation]()
+![equiation]()
+![equiation]()
+![equiation]()
+![equiation]()
+![equiation]()
 ![equiation]()
 ![equiation]()
