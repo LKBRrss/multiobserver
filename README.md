@@ -29,7 +29,7 @@ Aim of Luenberger observer is to correct the states estimation equation with a f
 
 ![equiation](http://latex.codecogs.com/gif.latex?%5Chat%7Bx%7D%28k&plus;1%29%3DA%5Chat%7Bx%7D%28k%29&plus;Bu%28k%29&plus;%5Cunderbrace%7BL%28y%28k%29-C%5Chat%7Bx%7D%28k%29%29%7D)
 
-              gsgjkhj
+<a href="http://www.codecogs.com/eqnedit.php?latex=\hat{x}(k&plus;1)=A\hat{x}(k)&plus;Bu(k)&plus;\underbrace{L(y(k)-C\hat{x}(k))}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\hat{x}(k&plus;1)=A\hat{x}(k)&plus;Bu(k)&plus;\underbrace{L(y(k)-C\hat{x}(k))}" title="\hat{x}(k+1)=A\hat{x}(k)+Bu(k)+\underbrace{L(y(k)-C\hat{x}(k))}" /></a>
 
 ![equiation](http://latex.codecogs.com/gif.latex?%5Ctilde%7Bx%7D%28k%29%3Dx%28k%29-%5Chat%7Bx%7D%28t%29)
 
