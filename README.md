@@ -46,12 +46,4 @@ Same idea for continuous-time system ![equiation](http://latex.codecogs.com/gif.
 
 ![equiation](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%5Chat%7Bx%7D%28t%29%7D%7B%5Cmathrm%7Bd%7Dt%7D%3DA%5Chat%7Bx%7D%28t%29&plus;Bu%28t%29&plus;L%5Cleft%20%5B%20y%28t%29-C%5Chat%7Bx%7D%28t%29%20%5Cright%20%5D)
 
-The dynamics of the state estimation error are 
-
-<a href="http://www.codecogs.com/eqnedit.php?latex=\frac{\mathrm{d}\tilde{x}(t)}{\mathrm{d}t}=(A-LC)\tilde{x}(t)" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\frac{\mathrm{d}\tilde{x}(t)}{\mathrm{d}t}=(A-LC)\tilde{x}(t)" title="\frac{\mathrm{d}\tilde{x}(t)}{\mathrm{d}t}=(A-LC)\tilde{x}(t)" /></a>
-
-![equiation]()
-![equiation]()
-![equiation]()
-![equiation]()
-![equiation]()
+The dynamics of the state estimation error are ![equiation](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%5Ctilde%7Bx%7D%28t%29%7D%7B%5Cmathrm%7Bd%7Dt%7D%3D%28A-LC%29%5Ctilde%7Bx%7D%28t%29)
