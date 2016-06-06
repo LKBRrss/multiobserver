@@ -30,6 +30,7 @@ Aim of Luenberger observer is to correct the states estimation equation with a f
 ![equiation](http://latex.codecogs.com/gif.latex?%5Chat%7Bx%7D%28k&plus;1%29%3DA%5Chat%7Bx%7D%28k%29&plus;Bu%28k%29&plus;L%28y%28k%29-C%5Chat%7Bx%7D%28k%29%29)
 
 where:
+
 ![equiation](http://latex.codecogs.com/gif.latex?L%28y%28k%29-C%5Chat%7Bx%7D%28k%29%29) is feedback on estimation error
 
 ![equiation](http://latex.codecogs.com/gif.latex?%5Ctilde%7Bx%7D%28k%29%3Dx%28k%29-%5Chat%7Bx%7D%28t%29)
