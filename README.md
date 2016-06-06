@@ -50,7 +50,7 @@ The dynamics of the state estimation error are ![equiation](http://latex.codecog
 
 It is possible to dimension a nonlinear observer by an eigenvalue assignment without solving the nonlinear partial differential equations for the transformation, if the transformed nonlinearities are linearized about the reconstructed state. This nonlinear observer design is called the Luenberger multi observer.
 
-!This is a example of DC motor, where based on current, estimated is  moment and velocity.
+<b>This is a example of DC motor, where based on current, estimated is  moment and velocity.</b>
 
 Run requirements:
 1.	Python3
