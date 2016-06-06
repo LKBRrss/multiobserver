@@ -32,6 +32,9 @@ Aim of Luenberger observer is to correct the states estimation equation with a f
 where:
 
 ![equiation](http://latex.codecogs.com/gif.latex?L%28y%28k%29-C%5Chat%7Bx%7D%28k%29%29) is feedback on estimation error
+![equiation](http://latex.codecogs.com/gif.latex?L%5Cin%20R%5E%7Bnxp%7D) is the observer gain
+
+The dynamics of the state estimation error ![equiation](http://latex.codecogs.com/gif.latex?%5Ctilde%7Bx%7D%28k%29%3Dx%28k%29-%5Chat%7Bx%7D%28k%29) is:
 
 ![equiation](http://latex.codecogs.com/gif.latex?%5Ctilde%7Bx%7D%28k%29%3Dx%28k%29-%5Chat%7Bx%7D%28t%29)
 
