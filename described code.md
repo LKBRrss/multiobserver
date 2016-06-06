@@ -1,7 +1,9 @@
 Difine observer class realizing assignment variables particular parameters:
+
 `def restart(self, p0):`
 
 Definition of initial variables:
+
 `def __init__(self, N, M, Np, Tp, A, B, C, L, mapping, obstype, RLSGain = 1000.0, RLSForgetting = 1.0, xe0 = []):`
 
 self: class pointer 
