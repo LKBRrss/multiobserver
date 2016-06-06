@@ -53,11 +53,12 @@ It is possible to dimension a nonlinear observer by an eigenvalue assignment wit
 <b>This is a example of DC motor, where based on current, estimated is  moment and velocity.</b>
 
 Run requirements:
+
 1.	Python3
 
-*	based on modules:  matplotlib, numpy , scipy
+    *	based on modules:  matplotlib, numpy , scipy
 
-*	Anaconda3 Suite includes everything above
+    *	Anaconda3 Suite includes everything above
 
 2.	Folder CORE contains all main elements of algorithm
 
@@ -65,4 +66,4 @@ Run requirements:
 
 4.	"How to start" informations:
 
-*	command: python.exe (let run the software & perform simulations)
+    *	command: python.exe (let run the software & perform simulations)
