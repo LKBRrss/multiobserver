@@ -44,7 +44,7 @@ and then ![equiation](http://latex.codecogs.com/gif.latex?%5Ctilde%7Bx%7D%28k%29
 
 Same idea for continuous-time system ![equiation](http://latex.codecogs.com/gif.latex?%5Cdot%7Bx%7D%28t%29%3DAx%28t%29&plus;Bu%28t%29)
 
-
+<a href="http://www.codecogs.com/eqnedit.php?latex=\frac{\mathrm{d}\hat{x}(t)}{\mathrm{d}t}=A\hat{x}(t)&plus;Bu(t)&plus;L\left&space;[&space;y(t)-C\hat{x}(t)&space;\right&space;]" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\frac{\mathrm{d}\hat{x}(t)}{\mathrm{d}t}=A\hat{x}(t)&plus;Bu(t)&plus;L\left&space;[&space;y(t)-C\hat{x}(t)&space;\right&space;]" title="\frac{\mathrm{d}\hat{x}(t)}{\mathrm{d}t}=A\hat{x}(t)+Bu(t)+L\left [ y(t)-C\hat{x}(t) \right ]" /></a>
 
 ![equiation]()
 ![equiation]()
