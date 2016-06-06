@@ -47,3 +47,16 @@ Same idea for continuous-time system ![equiation](http://latex.codecogs.com/gif.
 ![equiation](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%5Chat%7Bx%7D%28t%29%7D%7B%5Cmathrm%7Bd%7Dt%7D%3DA%5Chat%7Bx%7D%28t%29&plus;Bu%28t%29&plus;L%5Cleft%20%5B%20y%28t%29-C%5Chat%7Bx%7D%28t%29%20%5Cright%20%5D)
 
 The dynamics of the state estimation error are ![equiation](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%5Ctilde%7Bx%7D%28t%29%7D%7B%5Cmathrm%7Bd%7Dt%7D%3D%28A-LC%29%5Ctilde%7Bx%7D%28t%29)
+
+It is possible to dimension a nonlinear observer by an eigenvalue assignment without solving the nonlinear partial differential equations for the transformation, if the transformed nonlinearities are linearized about the reconstructed state. This nonlinear observer design is called the Luenberger multi observer.
+
+This is a example of DC motor, where based on current, estimated is  moment and velocity.
+
+Run requirements:
+1.	Python3
+•	based on modules:  matplotlib, numpy , scipy
+•	Anaconda3 Suite includes everything above
+2.	Folder CORE contains all main elements of algorithm
+3.	Folder  EXAMPLES contains samples to run and check
+4.	"How to start" informations:
+•	command: python.exe (let run the software & perform simulations)
