@@ -40,6 +40,7 @@ The dynamics of the state estimation error ![equiation](http://latex.codecogs.co
 
 ![equiation](http://latex.codecogs.com/gif.latex?%3D%28A-LC%29%5Ctilde%7Bx%7D%28k%29)
 
+and then <a href="http://www.codecogs.com/eqnedit.php?latex=\tilde{x}(k)=(A-LC)^{k}(x(0)-\hat{x}(0))" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\tilde{x}(k)=(A-LC)^{k}(x(0)-\hat{x}(0))" title="\tilde{x}(k)=(A-LC)^{k}(x(0)-\hat{x}(0))" /></a>
 
 ![equiation]()
 ![equiation]()
