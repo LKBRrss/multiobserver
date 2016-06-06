@@ -24,8 +24,6 @@ The matrix ![equiation](http://latex.codecogs.com/gif.latex?A%5Cin%20R%5E%7Bnxn%
 
 ![equiation](http://latex.codecogs.com/gif.latex?C%3D%5Cbegin%7Bbmatrix%7D%201%20%26%200%20%26%200%20%26%200%20%26%200%20%5Cend%7Bbmatrix%7D)
 
-![](https://lh3.googleusercontent.com/hgJdBQgJiUSJs5CvWt4OU3lIZSMTY9DWmvTufvU8tLbbDNkjXEg5csJYBZpmzYuUgh_mwg=s170){width=200%}
-
 Aim of Luenberger observer is to correct the states estimation equation with a feedback from the estimation error  y(k) -  based on measurements in and out signals of dynamical process in order to give estimates of internal states of system.
 
 ![equiation](http://latex.codecogs.com/gif.latex?%5Chat%7Bx%7D%28k&plus;1%29%3DA%5Chat%7Bx%7D%28k%29&plus;Bu%28k%29&plus;L%28y%28k%29-C%5Chat%7Bx%7D%28k%29%29)
