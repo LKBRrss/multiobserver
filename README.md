@@ -1,5 +1,5 @@
 # Multiobserver
-<b>A tool for state observation by multi observer method.
+<b>A tool for state observation by multi observer method.</b>
 
 Luenberger observer is  a design for nonlinear single-input single-output systems:
 
