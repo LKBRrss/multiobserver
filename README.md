@@ -1,9 +1,6 @@
 # Multiobserver
 <b>A tool for state observation by multi observer method.</b>
 
-![equiation](http://latex.codecogs.com/gif.latex?%5Cbegin%7Bpmatrix%7D%20a_%7B11%7D%20%26%20a_%7B12%7D%20%5C%5C%20a_%7B21%7D%20%26%20a%7B22%7D%20%5Cend%7Bpmatrix%7D)
-
-
 Luenberger observer is  a design for nonlinear single-input single-output systems:
 
 ![equiation](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%20x%28t%29%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D%20Ax%28t%29&plus;B%5Cphi%20%28x%28t%29%2Cu%28t%29%29)
