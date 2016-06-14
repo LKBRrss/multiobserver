@@ -1,3 +1,31 @@
+pochodna:
+<a href="http://www.codecogs.com/eqnedit.php?latex=\frac{\mathrm{d}&space;x(t)}{\mathrm{d}&space;t}=&space;Ax(t)&plus;B\phi&space;(x(t),u(t))" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\frac{\mathrm{d}&space;x(t)}{\mathrm{d}&space;t}=&space;Ax(t)&plus;B\phi&space;(x(t),u(t))" title="\frac{\mathrm{d} x(t)}{\mathrm{d} t}= Ax(t)+B\phi (x(t),u(t))" /></a>
+y:
+<a href="http://www.codecogs.com/eqnedit.php?latex=y(t)=Cx(t)" target="_blank"><img src="http://latex.codecogs.com/gif.latex?y(t)=Cx(t)" title="y(t)=Cx(t)" /></a>
+macierz 1:
+<a href="http://www.codecogs.com/eqnedit.php?latex=A=\begin{bmatrix}&space;0&space;&&space;1&space;&&space;\cdots&space;&&space;\cdots&space;&&space;0&space;\\&space;0&space;&&space;0&space;&&space;1&space;&&space;\cdots&space;&&space;0\\&space;\vdots&space;&&space;&&space;\ddots&space;&&space;&&space;\vdots&space;\\&space;0&space;&&space;\cdots&space;&&space;\cdots&space;&&space;0&space;&&space;1&space;\\&space;0&space;&&space;\cdots&space;&&space;\cdots&space;&&space;\cdots&space;&&space;0&space;\end{bmatrix}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?A=\begin{bmatrix}&space;0&space;&&space;1&space;&&space;\cdots&space;&&space;\cdots&space;&&space;0&space;\\&space;0&space;&&space;0&space;&&space;1&space;&&space;\cdots&space;&&space;0\\&space;\vdots&space;&&space;&&space;\ddots&space;&&space;&&space;\vdots&space;\\&space;0&space;&&space;\cdots&space;&&space;\cdots&space;&&space;0&space;&&space;1&space;\\&space;0&space;&&space;\cdots&space;&&space;\cdots&space;&&space;\cdots&space;&&space;0&space;\end{bmatrix}" title="A=\begin{bmatrix} 0 & 1 & \cdots & \cdots & 0 \\ 0 & 0 & 1 & \cdots & 0\\ \vdots & & \ddots & & \vdots \\ 0 & \cdots & \cdots & 0 & 1 \\ 0 & \cdots & \cdots & \cdots & 0 \end{bmatrix}" /></a>
+macierz 2:
+<a href="http://www.codecogs.com/eqnedit.php?latex=B=\begin{bmatrix}&space;0\\&space;0\\&space;\vdots&space;\\&space;0\\&space;1&space;\end{bmatrix}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?B=\begin{bmatrix}&space;0\\&space;0\\&space;\vdots&space;\\&space;0\\&space;1&space;\end{bmatrix}" title="B=\begin{bmatrix} 0\\ 0\\ \vdots \\ 0\\ 1 \end{bmatrix}" /></a>
+macierz 3:
+<a href="http://www.codecogs.com/eqnedit.php?latex=C=\begin{bmatrix}&space;1&space;&&space;0&space;&&space;0&space;&&space;0&space;&&space;0&space;\end{bmatrix}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?C=\begin{bmatrix}&space;1&space;&&space;0&space;&&space;0&space;&&space;0&space;&&space;0&space;\end{bmatrix}" title="C=\begin{bmatrix} 1 & 0 & 0 & 0 & 0 \end{bmatrix}" /></a>
+
+druga strona:
+1:
+<a href="http://www.codecogs.com/eqnedit.php?latex=\hat{x}(k&plus;1)=A\hat{x}(k)&plus;Bu(k)&plus;\underbrace{L(y(k)-C\hat{x}(k))}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\hat{x}(k&plus;1)=A\hat{x}(k)&plus;Bu(k)&plus;\underbrace{L(y(k)-C\hat{x}(k))}" title="\hat{x}(k+1)=A\hat{x}(k)+Bu(k)+\underbrace{L(y(k)-C\hat{x}(k))}" /></a>
+2:
+<a href="http://www.codecogs.com/eqnedit.php?latex=\tilde{x}(k)=x(k)-\hat{x}(k)" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\tilde{x}(k)=x(k)-\hat{x}(k)" title="\tilde{x}(k)=x(k)-\hat{x}(k)" /></a>
+3:
+<a href="http://www.codecogs.com/eqnedit.php?latex=\tilde{x}(k&plus;1)=Ax(k)&plus;Bu(k)-A\hat{x}(k)-Bu(k)-L\left&space;[&space;y(k)-C\hat{x}(k)&space;\right&space;]" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\tilde{x}(k&plus;1)=Ax(k)&plus;Bu(k)-A\hat{x}(k)-Bu(k)-L\left&space;[&space;y(k)-C\hat{x}(k)&space;\right&space;]" title="\tilde{x}(k+1)=Ax(k)+Bu(k)-A\hat{x}(k)-Bu(k)-L\left [ y(k)-C\hat{x}(k) \right ]" /></a>
+<a href="http://www.codecogs.com/eqnedit.php?latex==(A-LC)\tilde{x}(k)" target="_blank"><img src="http://latex.codecogs.com/gif.latex?=(A-LC)\tilde{x}(k)" title="=(A-LC)\tilde{x}(k)" /></a>
+4:
+<a href="http://www.codecogs.com/eqnedit.php?latex=\tilde{x}(k)=(A-LC)^{k}(x(0)-\hat{x}(0))" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\tilde{x}(k)=(A-LC)^{k}(x(0)-\hat{x}(0))" title="\tilde{x}(k)=(A-LC)^{k}(x(0)-\hat{x}(0))" /></a>
+5:
+<a href="http://www.codecogs.com/eqnedit.php?latex=\dot{x}(t)=Ax(t)&plus;Bu(t)" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\dot{x}(t)=Ax(t)&plus;Bu(t)" title="\dot{x}(t)=Ax(t)+Bu(t)" /></a>
+6:
+<a href="http://www.codecogs.com/eqnedit.php?latex=\frac{\mathrm{d}\hat{x}(t)}{\mathrm{d}t}=A\hat{x}(t)&plus;Bu(t)&plus;L\left&space;[&space;y(t)-C\hat{x}(t)&space;\right&space;]" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\frac{\mathrm{d}\hat{x}(t)}{\mathrm{d}t}=A\hat{x}(t)&plus;Bu(t)&plus;L\left&space;[&space;y(t)-C\hat{x}(t)&space;\right&space;]" title="\frac{\mathrm{d}\hat{x}(t)}{\mathrm{d}t}=A\hat{x}(t)+Bu(t)+L\left [ y(t)-C\hat{x}(t) \right ]" /></a>
+7:
+<a href="http://www.codecogs.com/eqnedit.php?latex=\frac{\mathrm{d}\tilde{x}(t)}{\mathrm{d}t}=(A-LC)\tilde{x}(t)" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\frac{\mathrm{d}\tilde{x}(t)}{\mathrm{d}t}=(A-LC)\tilde{x}(t)" title="\frac{\mathrm{d}\tilde{x}(t)}{\mathrm{d}t}=(A-LC)\tilde{x}(t)" /></a>
+
 # Multiobserver
 <b>A tool for state observation by multi observer method.</b>
 
