@@ -1,7 +1,7 @@
 # Multiobserver
 <b>A tool for state observation by multi observer method.</b>
 
-![equiation](\cos^2θ+sin^2θ=1\)
+![equiation](cos^2θ+sin^2θ=1\)
 
 Luenberger observer is  a design for nonlinear single-input single-output systems:
 
