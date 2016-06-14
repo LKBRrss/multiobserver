@@ -11,7 +11,7 @@ where:
 
 ![equiation](http://latex.codecogs.com/gif.latex?x%28t%29%5Cin%20R%5E%7BN%7D) is the system state
 
-![equiation](http://mathurl.com/jjloz8m) is the input variable
+![equiation](http://latex.codecogs.com/gif.latex?u%28t%29%5Cin%20R) is the input variable
 
 ![equiation](http://latex.codecogs.com/gif.latex?y%28t%29%5Cin%20R) is the output variable
 
